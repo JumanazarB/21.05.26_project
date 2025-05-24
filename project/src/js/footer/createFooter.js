@@ -3,7 +3,7 @@ export function createFooter(containerId, data) {
   const footer = document.getElementById(containerId);
   if (!footer) return;
 
-//   footer.innerHTML = ''; // eski elementlarni tozalab yuborish
+  footer.innerHTML = ''; // eski elementlarni tozalab yuborish
 //   
 
   data.forEach(column => {

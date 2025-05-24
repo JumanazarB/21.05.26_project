@@ -1,8 +1,9 @@
-// src/js/main.js
 import { footerData } from "./footer/footer-data.js";
 import { createFooter } from "./footer/createFooter.js";
+import { directionsData } from "./direction/direction-data.js";
+import { createDirectionsMenu } from "./direction/createDirection.js";
 
-// inject.js orqali #footer yuklangandan keyin DOM tayyor bo‘ladi
 window.addEventListener("DOMContentLoaded", () => {
-  createFooter("footer__column", footerData);
+  createDirectionsMenu("directions-menu", directionsData);
+  createFooter("footer", footerData);
 });

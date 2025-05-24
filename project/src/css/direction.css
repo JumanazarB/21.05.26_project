@@ -1,0 +1,11 @@
+.direction-menu h2{
+    padding: 43px 0;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+#directions .direction-menu .directions-wrapper{
+    display: flex;
+    flex-direction: column;
+}
